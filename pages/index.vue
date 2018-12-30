@@ -9,20 +9,7 @@
         </div>
         <h1 class="title is-1 pt-is-1">Hi I'm Ilham Sabar</h1>
         <h2 class="subtitle">Web Developer</h2>
-        <div class="is-row">
-          <span class="icon has-text-info">
-            <i class="fas fa-info-circle"></i>
-          </span>
-          <span class="icon has-text-success">
-            <i class="fas fa-check-square"></i>
-          </span>
-          <span class="icon has-text-warning">
-            <i class="fas fa-exclamation-triangle"></i>
-          </span>
-          <span class="icon has-text-danger">
-            <i class="fas fa-ban"></i>
-          </span>
-        </div>
+        <div class="is-row"></div>
       </div>
     </div>
   </section>
@@ -46,6 +33,31 @@ export default {
 
 .pt-is-1 {
   margin-top: 1em;
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
 }
 </style>
 
