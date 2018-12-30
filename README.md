@@ -1,4 +1,4 @@
-# hellow-world
+# Simple Page With Nuxt JS and Bulma
 
 > just for fun and learning with Nuxt Js
 
