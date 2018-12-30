@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-medium is-fullheight">
+  <section class="hero is-medium is-primary is-fullheight">
     <div class="hero-body">
       <div class="container has-text-centered">
         <div class="has-text-centered">
@@ -9,7 +9,14 @@
         </div>
         <h1 class="title is-1 pt-is-1">Hi I'm Ilham Sabar</h1>
         <h2 class="subtitle">Web Developer</h2>
-        <div class="is-row"></div>
+        <div class="is-row">
+          <a href="https://www.instagram.com/ilham_sabar/" target="_blank">
+            <img width="46" height="46" src="~/assets/images/IG.svg">
+          </a>
+          <a target="_blank" href="https://github.com/ilham-dev">
+            <img width="46" height="46" src="~/assets/images/github.svg">
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -32,7 +39,7 @@ export default {
 }
 
 .pt-is-1 {
-  margin-top: 1em;
+  margin-top: 0.2em;
 }
 
 .material-icons {
