@@ -8,7 +8,7 @@
           </figure>
         </div>
         <h1 class="title is-1 pt-is-1">Hi I'm Ilham Sabar</h1>
-        <h2 class="subtitle">Web Developer</h2>
+        <h2 class="subtitle is-3">Web Developer</h2>
         <div class="is-row">
           <a href="https://www.instagram.com/ilham_sabar/" target="_blank">
             <img width="46" height="46" src="~/assets/images/IG.svg">
@@ -16,6 +16,12 @@
           <a target="_blank" href="https://github.com/ilham-dev">
             <img width="46" height="46" src="~/assets/images/github.svg">
           </a>
+          <nuxt-link to="/project">
+            <img width="46" height="46" src="~/assets/images/repo.svg">
+          </nuxt-link>
+          <nuxt-link to="/contact">
+            <img width="46" height="46" src="~/assets/images/contact.svg">
+          </nuxt-link>
         </div>
       </div>
     </div>
