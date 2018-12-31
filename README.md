@@ -1,6 +1,7 @@
-# Simple Page With Nuxt JS and Bulma
+# Protofolio With Nuxt JS and Bulma
 
 > just for fun and learning with Nuxt Js
+> Using [Bulma Docs](https://bulma.io/documentation)
 
 ## Build Setup
 
